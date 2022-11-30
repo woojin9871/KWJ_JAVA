@@ -10,7 +10,7 @@ import java.util.Scanner;
 // 이 방식을 계속 로테이션을 돌린다
 // 결과
 // [1][2][3][4][5]
-// [0][1][2][3][4][][]
+// [0][1][2][3][4]
 public class BubbleSort {
 	
 	public static void main(String[] args) {
