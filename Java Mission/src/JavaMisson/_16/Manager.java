@@ -9,7 +9,12 @@ public class Manager {
 
 	public static void main(String[] args) {
 
+		LinkedList<Student> list = new LinkedList<>();
+		list = getTxtToList(list);
+		printList(list);
 	}
+
+
 
 	// 텍스츠 파일입력
 	public static LinkedList<Student> getTxtToList(LinkedList<Student> list) {
@@ -39,5 +44,21 @@ public class Manager {
 			e.printStackTrace();
 		}
 		return list;
+	}
+		// 리스트 출력
+		public static void printList(LinkedList<Student> list) {
+			
+			System.out.println("번호\t이름\t성적\t반");
+			while( !list.isEmpty() ) {
+				Student std = list.poll();
+				int no = std.getNo();
+				String name = std.getName();
+				int score = std.getScore();
+				String className = std.getClassName();
+				
+				System.out.println(no + "\t" + name + "\t" + score + "\t" + className);
+			
+		}
+	
 	}
 }
