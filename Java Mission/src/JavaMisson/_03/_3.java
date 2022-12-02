@@ -1,4 +1,4 @@
-package JavaMisson;
+package JavaMisson._03;
 
 public class _3 {
 

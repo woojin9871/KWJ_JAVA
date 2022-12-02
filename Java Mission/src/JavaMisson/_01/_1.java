@@ -1,4 +1,4 @@
-package JavaMisson;
+package JavaMisson._01;
 
 import java.util.Scanner;
 

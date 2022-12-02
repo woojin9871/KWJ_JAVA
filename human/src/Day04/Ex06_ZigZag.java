@@ -44,12 +44,14 @@ public class Ex06_ZigZag {
 			if (sw == 1) {
 				for (int j = 0; j < N; j++) {
 					// i : 0,j : 0 1 2 3 4
+					System.out.println("i :" + i + ", j : " + j + ", k : " + k);
 					arr[i][j] = k++;
 				}
 			}
 			// sw : -1 --> 역방향
 			if (sw == -1) {
 				for (int j = N - 1; j >= 0; j--) {
+					System.out.println("i :" + i + ", j : " + j + ", k : " + k);
 					arr[i][j] = k++;
 				}
 			}
