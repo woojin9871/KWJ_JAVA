@@ -15,7 +15,7 @@ public class IndexOutOfBound {
 		System.out.println("입력할 값 : ");
 		int input = sc.nextInt();
 		
-		// 예외 메세자 :
+		// 예외 메세지 :
 		// java.lang.ArrayIndexOutOfBoundsException:
 		// Index 5 out of bound for lenght 5
 		try {

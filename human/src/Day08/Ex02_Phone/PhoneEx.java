@@ -8,5 +8,7 @@ public class PhoneEx {
 		smartPhone.turnOn();
 		smartPhone.internetSearch();
 		smartPhone.turnOff();
+	
+		
 	}
 }
